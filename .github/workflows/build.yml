@@ -1,15 +1,7 @@
-name: CI
-
+name: Build Kernel
 on:
   workflow_dispatch:
-
-jobs:
-  build-kernel:
-    name: Build Kernel
-    rname: CI
-
-on:
-  workflow_dispatch:
+  
 
 jobs:
   build-kernel:
