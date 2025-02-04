@@ -28,5 +28,5 @@ jobs:
           android-version: 14
           aosp-clang-version: r383902
           disable-lto: true
-          anykernel3: trueuns-on: ubuntu-22.04
+          anykernel3: true
   
