@@ -29,17 +29,4 @@ jobs:
           aosp-clang-version: r383902
           disable-lto: true
           anykernel3: trueuns-on: ubuntu-22.04
-    steps:
-      - name: Build
-        uses: dabao1955/kernel_build_action@main
-        with:
-          kernel-url: https://github.com/Star-Seven/android_kernel_samsung_exynos9820/
-          kernel-branch: Susfs
-          config: extreme_d2s_defconfig
-          arch: arm64
-          aosp-gcc: true
-          aosp-clang: true
-          android-version: 14
-          aosp-clang-version: r383902
-          disable-lto: true
-          anykernel3: true
+  
